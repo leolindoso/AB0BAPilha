@@ -48,10 +48,10 @@ RM = /home/leolindoso/CLion/clion-2017.3.4/bin/cmake/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/leolindoso/CLionProjects/A0BPilha
+CMAKE_SOURCE_DIR = /home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug
+CMAKE_BINARY_DIR = /home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/CMakeFiles /home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/CMakeFiles /home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -123,32 +123,59 @@ A0BPilha/fast:
 	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/build
 .PHONY : A0BPilha/fast
 
-main.o: main.cpp.o
+Pilha.o: Pilha.c.o
+
+.PHONY : Pilha.o
+
+# target to build an object file
+Pilha.c.o:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/Pilha.c.o
+.PHONY : Pilha.c.o
+
+Pilha.i: Pilha.c.i
+
+.PHONY : Pilha.i
+
+# target to preprocess a source file
+Pilha.c.i:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/Pilha.c.i
+.PHONY : Pilha.c.i
+
+Pilha.s: Pilha.c.s
+
+.PHONY : Pilha.s
+
+# target to generate assembly for a file
+Pilha.c.s:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/Pilha.c.s
+.PHONY : Pilha.c.s
+
+main.o: main.c.o
 
 .PHONY : main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.cpp.o
-.PHONY : main.cpp.o
+main.c.o:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.c.o
+.PHONY : main.c.o
 
-main.i: main.cpp.i
+main.i: main.c.i
 
 .PHONY : main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.cpp.i
-.PHONY : main.cpp.i
+main.c.i:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.c.i
+.PHONY : main.c.i
 
-main.s: main.cpp.s
+main.s: main.c.s
 
 .PHONY : main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.cpp.s
-.PHONY : main.cpp.s
+main.c.s:
+	$(MAKE) -f CMakeFiles/A0BPilha.dir/build.make CMakeFiles/A0BPilha.dir/main.c.s
+.PHONY : main.c.s
 
 # Help Target
 help:
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... A0BPilha"
+	@echo "... Pilha.o"
+	@echo "... Pilha.i"
+	@echo "... Pilha.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

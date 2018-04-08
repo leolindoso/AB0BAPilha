@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug"/>
+				<Option working_dir="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug"/>
+				<Option working_dir="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug"/>
+				<Option working_dir="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="A0BPilha">
-				<Option output="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/A0BPilha" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug"/>
+				<Option output="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/A0BPilha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -54,15 +54,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 A0BPilha"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 A0BPilha"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="A0BPilha/fast">
-				<Option output="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/A0BPilha" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug"/>
+				<Option output="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/A0BPilha" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,17 +77,23 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 A0BPilha/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 A0BPilha/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/leolindoso/CLionProjects/A0BPilha/main.cpp">
+		<Unit filename="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/Pilha.c">
 			<Option target="A0BPilha"/>
 		</Unit>
-		<Unit filename="/home/leolindoso/CLionProjects/A0BPilha/CMakeLists.txt">
+		<Unit filename="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/Pilha.h">
+			<Option target="A0BPilha"/>
+		</Unit>
+		<Unit filename="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/main.c">
+			<Option target="A0BPilha"/>
+		</Unit>
+		<Unit filename="/home/leolindoso/CLionProjects/AB0BAPilha/A0BPilha/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

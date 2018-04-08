@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/A0BPilha.dir/main.cpp.o  -o A0BPilha 
+/usr/bin/cc -g   CMakeFiles/A0BPilha.dir/main.c.o CMakeFiles/A0BPilha.dir/Pilha.c.o  -o A0BPilha 
